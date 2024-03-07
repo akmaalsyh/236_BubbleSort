@@ -71,13 +71,15 @@ int main()
 
     return 0;
 }
-int main()
-{
-    input();  //memanggil prosedur untuk menginput data
-    bubbleSortArray();  //memanggil prosedur bubblesort untuk proses mengurutkan data
-    display();//memanggil prosedur untuk menampilkan data yang telah urut
-    system("pause");
+void display() {
+    cout << endl;
+    cout << "===================================" << endl;
+    cout << "Element Array yang telah tersusun" << endl;
+    cout << "===================================" << endl;
+    for (int j = 0; j < n; j++) {
+        cout << arr[j] << endl; // Output setiap element array pada garis baru
 
-
-    return 0;
+    }
+    cout << "jumlah pass = " << n - 1 << endl; //menampilkan total angka dari elemen yang benar
+    cout << endl;
 }
