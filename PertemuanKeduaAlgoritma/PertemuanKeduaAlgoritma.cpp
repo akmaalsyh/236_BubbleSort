@@ -71,3 +71,13 @@ int main()
 
     return 0;
 }
+int main()
+{
+    input();  //memanggil prosedur untuk menginput data
+    bubbleSortArray();  //memanggil prosedur bubblesort untuk proses mengurutkan data
+    display();//memanggil prosedur untuk menampilkan data yang telah urut
+    system("pause");
+
+
+    return 0;
+}
